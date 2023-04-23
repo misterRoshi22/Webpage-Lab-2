@@ -7,6 +7,59 @@
     <title>Excersice 2</title>
   </head>
   <body>
-    <p></p>
+    <h1>Excersice #1</h1>
+    <fieldset>
+      <legend>Personal Information</legend>
+      <label for="firstName">First Name</label>
+      <input type="text" name="firstName" />
+      <label for="secondName"> Last Name</label>
+      <input type="test" />
+      <br />
+      <br />
+      <label for="email">Email</label>
+      <input type="email" />
+      <label for="password">Password</label>
+      <input type="password" />
+      <br />
+
+      <input type="checkbox" />
+      <label for="checkbox">Remember Me</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Your Order</legend>
+      <label>Choose Your Food</label>
+      <select>
+        <option value="1">Burger</option>
+        <option value="2">Fries</option>
+      </select>
+      <select>
+        <option value="1">Shawerma</option>
+        <option value="2">Fries</option>
+      </select>
+      <select>
+        <option value="1">Fries</option>
+        <option value="2">Fries</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <legend>Delivery Information</legend>
+      <label for="Location">Your Location</label>
+      <input type="text" />
+      <label for="Address">Building Number</label>
+      <input type="text" />
+      <label for="date">Delivery Date</label>
+      <input type="date" />
+      <br />
+      <br />
+      <label for="add">Additional Information</label>
+      <textarea name="add" rows="5" cols="40"></textarea>
+    </fieldset>
+    <button type=""button" onclick = "alert('Your Order has been sent')">
+      Submit
+    </button>
+    <button type=""button" onclick = "alert('Your Order has been reset')">
+      Reset
+    </button>
   </body>
 </html>
